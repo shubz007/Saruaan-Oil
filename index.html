@@ -38,14 +38,14 @@
     </div> -->
     <!-- preloader end -->
     <!-- header -->
-    <header>
-        <div class="bottom-bar">
+    <header class="main-header">
+        <div class="bottom-bar ">
             <div class="container">
                 <div class="two-bar">
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="logo">
                             <a href="index.html">
-                                <img alt="logo" src="assets/img/logo.png" style="  background-color: #fafafa; width: 190px; height: 80px;">
+                                <img alt="logo" src="assets/img/logo.png" style="   width: 170px; height: 80px;">
                             </a>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
         <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
             <div class="res-log" >
                 <a href="index.html">
-                     <img alt="logo" src="assets/img/logo.png" style=" background-color: #fafafa; width: 160px; height: 80px; ">
+                     <img alt="logo" src="assets/img/logo.png" style="  width: 170px; height: 80px;">
                 </a>
             </div>
             <ul>
@@ -196,7 +196,7 @@
     </section>
     <!-- Home End -->
     
-    <div class="gap">
+    <div class="pb-5">
         <div class="container">
             <div class="row" >
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -238,7 +238,7 @@
             </div>
         </div>
     </div>
-    <section class="section-provide-high gap no-top" id="About">
+    <section class="section-provide-high pb-5 no-top" id="About">
         <div class="container">
             <div class="heading two ">
                 <h6 >Welcome TO Saruaan</h6>
@@ -270,7 +270,7 @@
             </div>
         </div>
     </section>
-    <section class="section-anti-aging gap no-top">
+    <section class="section-anti-aging pb-5 no-top">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -289,7 +289,7 @@
                                 <img src="assets/img/oil4.jpg" alt="img">
                             </figure>
                         </div>
-                        <div class="collnumber">
+                        <!-- <div class="collnumber">
                             <i>
                                 <svg version="1.1" xml:space="preserve" width="682.66669" height="682.66669"
                                     viewBox="0 0 682.66669 682.66669" xmlns="http://www.w3.org/2000/svg">
@@ -324,8 +324,9 @@
                             <div>
                                 <h4>Call Us Anytime</h4>
                                 <a href="callto: 7011665906">7011665906</a>
-                            </div>
-                        </div>
+                            </div> 
+                        </div> 
+                    -->
                         <img src="assets/img/dots.png" alt="dots" class="dots-1">
                         <img src="assets/img/dots.png" alt="dots" class="dots-2">
                     </div>
@@ -363,7 +364,7 @@
  
     <!-- Products  -->
 
-    <section class="section-products gap" style="background-color: #fafafa;" id="Products">
+    <section class="section-products pb-5" style="background-color: #fafafa;" id="Products">
         <div class="container">
             <div class="heading">
                 <img src="assets/img/heading-img.png" alt="img">
@@ -375,7 +376,7 @@
                     <div class="products">
                         <a href="#" class="btn">Buy Now</a>
                         <img src="assets/img/prod1.jpg" alt="img">
-                        <a href="product-details.html"> Mustard Oil – Bold flavor, great for digestion and  <br>heart health</a>
+                        <a href="#"> Mustard Oil – Bold flavor, great for digestion and  <br>heart health</a>
                         
                         <ul class="star">
                             <li><i class="fa-solid fa-star"></i></li>
@@ -391,7 +392,7 @@
                         <a href="#" class="btn">Buy Now</a>
                         <img src="assets/img/prod2.png" alt="img">
                         
-                        <a href="product-details.html"> Coconut Oil – Ideal for cooking, hair nourishment, <br>and skincare.</a>
+                        <a href="#"> Coconut Oil – Ideal for cooking, hair nourishment, <br>and skincare.</a>
                         
                         <ul class="star">
                             <li><i class="fa-solid fa-star"></i></li>
@@ -406,7 +407,7 @@
                     <div class="products">
                         <a href="#" class="btn">Buy Now</a>
                         <img src="assets/img/prod3.png" alt="img">
-                        <a href="product-details.html">Sesame Oil –packed with Antioxidants ,best for join & skin health.
+                        <a href="#">Sesame Oil –packed with Antioxidants ,best for join & skin health.
                         </a>
                         
                         <ul class="star">
@@ -423,7 +424,7 @@
                     <div class="products">
                         <a href="#" class="btn">Buy Now</a>
                         <img src="assets/img/prod4.png" alt="img">
-                        <a href="product-details.html"> Groundnut Oil – Rich in healthy fats, for traditional Indian cooking.
+                        <a href="#"> Groundnut Oil – Rich in healthy fats, for traditional Indian cooking.
                         </a>
                         
                         <ul class="star">
@@ -460,7 +461,7 @@
                     <figure>
                         <img src="assets/img/7.png" alt="img" style="width: 300px;">
                     </figure>
-                    <img src="assets/img/1.png" alt="img" style="width: 300px;">
+                    <img src="assets/img/1.png" alt="img" id="imgcss" >
                 </div>
             </div>
             <div class="col-lg-6">
@@ -523,75 +524,68 @@
 
 
  <!-- TEstimonial -->
-    <section class="gap no-top section-reviews mb-4" id="Testimonials">
-        <div class="container">
-            <div class="heading two">
-                <h6>Testimonials</h6>
-                <h2>Clients Reviews</h2>
-            </div>
-            <div class="row slider-reviews owl-carousel">
-                <div class="col-lg-12 item">
-                    <div class="clients-reviews">
-                        <img src="assets/img/test2.png" alt="img" style="height: 80px;">>
-                        <div class="clients-reviews-text">
-                            <!-- <h5>i love this little cbd store</h5> -->
-                            <p>🌟 "Saruaan oil takes me back to my grandmother’s kitchen—pure, aromatic, and
-                                full of goodness!" </p>
-                            <h6> Priya S.</h6>
-                            <ul class="star">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                            <img src="assets/img/flower-icon.png" alt="img" class="flower-icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 item">
-                    <div class="clients-reviews">
-                        <img src="assets/img/test1.png" alt="img"  style="height: 80px;">>
-                        <div class="clients-reviews-text">
-                            <!-- <h5>i love this little cbd store</h5> -->
-                            <p>🌟 "Finally, an oil that’s truly natural! No chemicals, just pure health in every drop."</p>
-                            <h6>Ramesh K</h6>
-                            <ul class="star">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                            <img src="assets/img/flower-icon.png" alt="img" class="flower-icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 item">
-                    <div class="clients-reviews">
-                        <img src="assets/img/test3.png" alt="img" style="height: 80px;">
-                        <div class="clients-reviews-text">
-                            <!-- <h5>i love this little cbd store</h5> -->
-                            <p>🌟 "Saruaan isn’t just a brand, it’s a movement. Proud to support local farmers!".</p>
-                            <h6>Ananya M</h6>
-                            <ul class="star">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                            <img src="assets/img/flower-icon.png" alt="img" class="flower-icon">
-                        </div>
-                    </div>
-                </div>
-            </div>
+ <section class="testimonial-section" id="Testimonials">
+    <div class="container">
+      <div class="heading">
+        <h6>Testimonials</h6>
+        <h2>What Our Clients Say</h2>
+      </div>
+  
+      <div class="testimonial-carousel">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <img src="assets/img/test2.png" alt="Priya S." class="profile">
+          <div class="testimonial-content">
+            <p>🌟 "Saruaan oil takes me back to my grandmother’s kitchen—pure, aromatic, and full of goodness!"</p>
+            <h6>Priya S.</h6>
+            <ul class="star">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
         </div>
-        <img src="assets/img/hero-icon-1.png" alt="icon" class="extra-images-two">
-        <img src="assets/img/dots-1.png" alt="icon" class="dots">
-    </section>
+  
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <img src="assets/img/test1.png" alt="Ramesh K" class="profile">
+          <div class="testimonial-content">
+            <p>🌟 "Finally, an oil that’s truly natural! No chemicals, just pure health in every drop."</p>
+            <h6>Ramesh K</h6>
+            <ul class="star">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+        </div>
+  
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <img src="assets/img/test3.png" alt="Ananya M" class="profile">
+          <div class="testimonial-content">
+            <p>🌟 "Saruaan isn’t just a brand, it’s a movement. Proud to support local farmers!"</p>
+            <h6>Ananya M</h6>
+            <ul class="star">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/img/dots-1.png" alt="decor" class="decorative">
+  </section>
+  
     <!-- Gallery Section -->
-    <section class="gap blog-two-section" id="Gallery">
+    <section class="pb-5 blog-two-section" id="Gallery">
         <div class="container">
             <div class="heading ">
                 <img src="assets/img/heading-img.png" alt="img">
@@ -663,7 +657,7 @@
 
     <!-- Newsletter -->
 
-    <section class="gap no-top" id="Newsletter">
+    <section class=" no-top pb-5" id="Newsletter">
         <div class="subscribe" style="background-image: url(assets/img/subscribe.jpg);">
             <div class="container">
                 <div class="subscribe-text">
@@ -682,7 +676,7 @@
     <!-- Newsletter ends -->
 
     <!-- Contact -->
-    <section class="gap no-top" id="Contact">
+    <section class="no-top pb-5" id="Contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -709,19 +703,20 @@
                 <div class="col-lg-7">
                     <div class="content-style" style="background-image:url(assets/img/cbd-oil.jpg);">
                         <h3>Have Any Question?</h3>
-                        <form class="content-form" id="contact-form"action='https://api.web3forms.com/submit' method="post"> 
+                        <form class="content-form" id="contact-form" action="https://api.web3forms.com/submit" method="post"> 
                             <input type="hidden" name="access_key" value="af0b7193-e1ba-42f6-a435-db4fb28a9f4a">
-                            <input type="hidden" name="website" value="Saruaan.life" />
+                            <input type="hidden" name="website" value="Saruaan.life" />
                             <input type="text" name="name" placeholder="Complete Name" required>
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="Phone No" placeholder="Phone No" required>
-                            <textarea placeholder="Your Message" name="message"></textarea>
+                            <textarea placeholder="Your Message" name="message" required></textarea>
                             <button type="submit" class="btn">Send Message</button>
                         </form>
                         <img src="assets/img/extra-images-2.png" alt="icon" class="extra-images-two">
                         <img src="assets/img/dots-1.png" alt="img" class="dots">
                     </div>
                 </div>
+                
             </div>
            
         </div>
@@ -732,94 +727,86 @@
    
    
    
-    <footer >
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget-title">
-                        <figure>
-                            <img src="assets/img/logo.png" alt="logo" style=" background-color: #fafafa; width: 180px; height: 90px;" class="mb-4">
-                            </figure>
-                        <h3 >Bringing Purity Back to Your Kitchen</h3>
-                        <h4 class="text-white">📍 Based in India</h4>
-                        <h4 class="text-white"> 🌱 100% Natural </h4>
-                        <h4 class="text-white">💛 Fair to Farmers</h4>
-                        
-                        
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget-title">
-                        <h3>Quick Links</h3>
-                        <ul class="links">
-                           <li><i class="fa-solid fa-caret-right"></i><a href="index.html"></a>Home</li>  
-                           <li><i class="fa-solid fa-caret-right"></i><a href="index.html#Products"></a>Shop</li> 
-                           <li><i class="fa-solid fa-caret-right"></i><a href="index.html#About"></a>About Us</li> 
-                           <li><i class="fa-solid fa-caret-right"></i><a href="index.html#Contact"></a>contact-us</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget-title">
-                        <h3 class="pt-0">Contact</h3>
-                        <h5><a href="callto:7011665906">7011665906</a></h5>
-                        <a href="support@saruaan.com">support@saruaan.com
-                        </a>
-                        <ul class="social-media">
-                            <li><a href="#"><i class="fab fa-facebook-f icon"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        </ul>
-                        <div class="footer-location">
-                            <i>
-                                <svg width="24px" height="24px" viewBox="-4 0 32 32" version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g transform="translate(-104.000000, -411.000000)" fill="#fff">
-                                            <path
-                                                d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 L116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 L116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 L116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 L116,411 Z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </i>
-                            <div>
-                                <h4>Two Horizon, Gurugram, 122002</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <!-- Logo & Tagline -->
+            <div class="col-lg-4 col-md-6 ">
+              <div class="widget-title">
+                <figure>
+                  <img src="assets/img/logo.png" alt="logo" style="width: 200px; height: auto;">
+                </figure>
+                <h3>Bringing Purity Back to Your Kitchen</h3>
+                <h4 class="text-white">📍 Based in India</h4>
+                <h4 class="text-white">🌱 100% Natural</h4>
+                <h4 class="text-white">💛 Fair to Farmers</h4>
+              </div>
             </div>
+      
+            <!-- Quick Links -->
+            <div class="col-lg-4 col-md-6 ">
+              <div class="widget-title">
+                <h3>Quick Links</h3>
+                <ul class="links">
+                  <li><i class="fa-solid fa-caret-right"></i> <a href="index.html">Home</a></li>
+                  <li><i class="fa-solid fa-caret-right"></i> <a href="index.html#Products">Shop</a></li>
+                  <li><i class="fa-solid fa-caret-right"></i> <a href="index.html#About">About Us</a></li>
+                  <li><i class="fa-solid fa-caret-right"></i> <a href="index.html#Contact">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- Contact & Social -->
+            <div class="col-lg-4 col-md-6 ">
+              <div class="widget-title">
+                <h3>Contact</h3>
+                <h5><a href="tel:+917011665906">7011665906</a></h5>
+                <a href="mailto:support@saruaan.com">support@saruaan.com</a>
+                <ul class="social-media">
+                  <li><a href="#"><i class="fab fa-facebook-f icon"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                </ul>
+                <div class="footer-location">
+                  <i>
+                    <!-- Location icon -->
+                    <svg width="24px" height="24px" viewBox="-4 0 32 32">
+                      <g fill="#fff">
+                        <path d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 Z"></path>
+                      </g>
+                    </svg>
+                  </i>
+                  <div>
+                    <h4>Two Horizon, Gurugram, 122002</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      
+        <!-- Footer Bottom -->
         <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-text">
-                 
-                    <a href="#"><ihmg src="assets/img/cahhrd.png" alt="card"></a>
-                    <p>Copyright © 2024 All Rights Reserved</p>
-                    <ul>
-                        <!-- <li><a href="#">Terms of use</a></li>
-                        <li><a href="#">Privacy Policy</a></li> -->
-                    </ul>
-                </div>
+          <div class="container">
+            <div class="footer-bottom-text">
+              <p>© 2024 All Rights Reserved</p>
+              <!-- <img src="assets/img/cahhrd.png" alt="payment cards" style="height: 30px;"> -->
+              <!-- Uncomment if needed
+              <ul>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul> -->
             </div>
+          </div>
         </div>
-        <!-- <img src="assets/img/hero-icon-1.png" alt="icon" class="extra-images-one"> -->
+      
         <img src="assets/img/hero-icon-1.png" alt="icon" class="extra-images-two">
         <img src="assets/img/dots-1.png" alt="icon" class="dots">
-    </footer>
+      </footer>
+      
     <!-- search-popup -->
-    <div class="search-popup">
-        <button class="close-search"><i class="fa-solid fa-xmark"></i></button>
-        <form method="post" action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" value="" placeholder="Search Here" required="">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </form>
-    </div>
+    
     <!-- search-popup end -->
     <!-- progress -->
     <div id="progress">

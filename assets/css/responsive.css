@@ -562,7 +562,7 @@
 	}
    .gap {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 	}
 	.products.two img,.products {
     	width: 100%;
@@ -691,7 +691,7 @@
 	    top: 19px;
 	}
    .bar-menu i {
-    color: #fff;
+    color: #000000;
    }
    .hero-section {
     padding-top: 130px;
@@ -1862,9 +1862,9 @@
 	#countdown ul li {
     margin-right: 2px;
    }
-	footer {
-    padding-top: 60px;
-	}
+	/* footer {
+    margin-top: -60px;
+	} */
 	.widget-title h3 {
     font-size: 20px;
    }
