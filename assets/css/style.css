@@ -136,8 +136,8 @@ h2 {
 h4 {
     font-size: 22px;
 }
-a,h2,h3,h4,h5,h6{
-    color: #000;
+a,h2,h3,h4,h6{
+    color: #000000;
     margin: 0;
 }
 a{
@@ -522,7 +522,7 @@ header {
 
 /* 04. two-bar */
 .bottom-bar {
-    border-top: 1px solid #21372a;
+    /* border-top: 1px solid #21372a; */
     position: relative;
     background-color: white;
 }
@@ -1641,7 +1641,8 @@ ul.star {
 }
 .products {
     width: 97%;
-    border: 1px solid #bbbbbb;
+    /* border: 1px solid #bbbbbb; */
+    border-radius: 20px;
     padding: 40px 20px 20px 30px;
     background-color: #fff;
     position: relative;
@@ -2414,7 +2415,7 @@ img.extra-images-two {
 /* 26. footer */
 footer {
     position: relative;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 footer:before {
     position: absolute;
@@ -2535,9 +2536,9 @@ footer .row > div {
 .footer-bottom {
     background-color: var(--theme-colour);
     position: relative;
-    padding-top: 24px;
+    /* padding-top: 24px;
     padding-bottom: 24px;
-    margin-top: 120px;
+    margin-top: 120px; */
 }
 .footer-bottom-text p {
     color: #000;
@@ -5920,3 +5921,15 @@ ul.product_meta li a,.collnumber svg,.products-needs img,.provide-high-text a,.t
     }
 
     
+    .footer-logo-wrapper {
+        margin-bottom: 15px;
+        text-align: left;
+      }
+      
+      .footer-logo {
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+        
+      }
+      
