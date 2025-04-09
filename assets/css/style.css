@@ -5886,7 +5886,7 @@ img.dots {
 /* 92. selection style */
 ::-moz-selection { 
   color: #fff;
-  background: var(--common-colour);
+  background: var(--common-colour); 
 }
 ::selection {
   color: #fff;
@@ -5927,9 +5927,18 @@ ul.product_meta li a,.collnumber svg,.products-needs img,.provide-high-text a,.t
       }
       
       .footer-logo {
-        width: 180px;
-        height: auto;
+        padding-top:20px;
+        width: 280px;
+        height: 90px;
         object-fit: contain;
         
       }
+
+      img {
+        border-radius: 20px;
+      }
+      #Gallery img {
+        border-radius: 0 !important;
+      }
+            
       
